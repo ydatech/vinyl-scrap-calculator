@@ -19,12 +19,6 @@ Pipeline stages:
 
 Pipeline triggers automatically when pushing to the `main` branch.
 
-## Manual Deployment
-You can trigger deploy manually:
-1. Go to **GitHub**
-2. Open **Actions**
-3. Select **Deploy Vinyl Calculator**
-4. Click **Run wokrflow**
 
 ## Live Demo
 
