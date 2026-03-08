@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple calculator to determine vinyl scrap based on roll width and graphic dimensions.">
+    <title>Vinyl Scrap Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Vinyl Scrap Calculator</h1>
+        <div class="form">
+            <label for="rollWidth">Roll Width (cm)</label>
+            <input  type="number" id="rollWidth" placeholder="Enter roll width">
+
+            <label for="graphicWidth">Graphic Width (cm)</label>
+            <input type="number" id="graphicWidth" placeholder="Enter graphic width">
+
+            <label for="graphicHeight">Graphic Height (cm)</label>
+            <input type="number" id="graphicHeight" placeholder="Enter graphic height">
+
+            <button type="button" onclick="calculate()">Calculate</button>
+        </div>
+        <div class="result">
+            <h2 id="result"></h2>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
