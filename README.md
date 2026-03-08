@@ -28,4 +28,4 @@ You can trigger deploy manually:
 
 ## Live Demo
 
-
+[https://ydatech.github.io/vinyl-scrap-calculator/](https://ydatech.github.io/vinyl-scrap-calculator/)
